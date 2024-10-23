@@ -1,7 +1,7 @@
 .clients-container{
     padding: 5px;
     width: auto;
-    height: 100vh;
+    height: 130vh;
     display: flex;
     flex-direction: column;
     gap: 10px;

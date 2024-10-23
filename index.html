@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/globalStyles.css">
     <title>Clinica</title>
@@ -87,6 +88,7 @@
             <div class="day-bar-container">
                 <span class="day-bar-text">Amanhã</span>
             </div>
+
             <div class="clients-card">
                 <div class="card-top">
                     <img src="./images/perfil-5.jpg" alt="cliente" class="photograph-client">
@@ -109,6 +111,39 @@
                 </div>
             </div>
         </section>
+        <div class="bar-options">
+            <div class="item">
+                <img src="./images/icons/Calendarioicone.png" alt="calendario icone">
+                <p class="marked">Consultas</p>
+            </div>
+            <div class="item">
+                <img src="./images/icons/clientes icone.png" alt="cliente icone">
+                <p>Clientes</p>
+            </div>
+            <div class="item">
+                <img src="./images/icons/relatorios icone.png" alt="relatorio icone">
+                <p>Relatorios</p>
+            </div>
+            <div class="item">
+                <img src="./images/icons/menu icone.png" alt="menu icone">
+                <p>Menu</p>
+            </div>
+        </div>
+        <span class="button-fly" id="floatingButton" onclick="toggleOverlay()"><i class="bi bi-plus-lg"></i></span>
+        <div id="overlay" class="overlay" onclick="toggleOverlay()">
+            <div class="button-container">
+                <div class="button-controller">
+                    <p class="label-name">Nova consulta na casa do paciente</p>
+                    <button class="action-button"><img src="./images/icons/Camerafab.png" alt="camera white"></button>
+                </div>
+                <div class="button-controller">
+                    <p class="label-name">Nova consulta por video</p>
+                    <button class="action-button"><img src="./images/icons/pinfabiconee.png" alt="pin white"></button>
+                </div>
+            </div>
+        </div>
     </main>
+    
+    <script src="./js/script.js"></script>
 </body>
 </html>
