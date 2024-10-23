@@ -1,0 +1,93 @@
+.clients-container{
+    padding: 5px;
+    width: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.clients-card{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.card-top{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 5px;
+}
+
+
+.photograph-client{
+    border-radius: 100px;
+    width: auto;
+    height: 8vh;
+}
+
+.chat-circle{
+    background-color: #fff;
+    padding-left: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.name-client{
+    color: var(--color-grey-1);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.type-control{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 42vw;
+}
+
+.type-consult{
+    font-weight: 400;
+    color: var(--color-grey-2);
+    font-size: 12px;
+    
+}
+
+.card-bottom{
+    border-top: 1px solid var(--color-grey-1);
+    padding: 10px;
+}
+
+.hours{
+    color: var(--color-grey-1);
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.buttons-container{
+    display: flex;
+    gap: 25px;
+    padding-top: 10px;
+}
+
+.call-video{
+    background-color: var(--brand-color-1);
+    color: var(--color-grey-3);
+    font-weight: 500;
+    text-align: center;
+}
+
+.call-talk{
+    background-color: transparent;
+    color: var(--color-grey-1);
+    border: 1px solid var(--cards-color);
+}
+
+.show-address{
+    background-color: var(--brand-color2);
+    color: var(--color-grey-3);
+    width: 70vw;
+}
