@@ -29,13 +29,13 @@
     position: fixed;
     bottom: 80px;
     right: 5px;
-    z-index: 200;
+    z-index: 100;
     background-color: var(--brand-color2);
     color: #fff;
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
     padding: 20px;
-    border-radius: 60px;
+    border-radius: 50px;
     text-align: center;
 }
 
@@ -61,31 +61,32 @@
     flex-direction: column;
     gap: 10px;
     position: absolute;
-    top: 54%;
-    right: 5px;
+    bottom: 22%;
+    right: 10px;
 }
 
 .action-button {
-    padding: 25px;
-    border-radius: 50%;
+    padding: 15px;
+    border-radius: 40%;
     background-color: var(--brand-color2);
     color: #fff;
     cursor: pointer;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     text-align: center;
 }
 
 .button-controller{
     display: flex;
     align-items: center;
-    gap: 20px;
     justify-content: space-between;
+    text-align: center;
+    gap: 10px;
 }
 
 .label-name{
     background-color: #fff;
     font-size: 15px;
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
 }
