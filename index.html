@@ -1,149 +1,255 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/globalStyles.css">
-    <title>Clinica</title>
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aluramed</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
     <main>
-        <section class="perfil-medic">
-            <img src="./images/perfil-1.jpg" alt="foto medica" class="fotograph-medic">
-            <div class="perfil-medic-content">
-                <h2 class="name">Olá, Sônia</h2>
-                <span class="details">Mais 4 consultas hoje</span>
-            </div>
-        </section>
-        <div class="day-bar-container">
-            <span class="day-bar-text">Hoje</span>
-        </div>
-        <section class="clients-container">
-            <div class="clients-card">
-                <div class="card-top">
-                    <img src="./images/perfil-2.jpg" alt="cliente" class="photograph-client">
-                    <div>
-                        <h3 class="name-client">Luciana Dias</h3>
-                        <div class="type-control">
-                            <img src="./images/icons/Camera.png" alt="icon camera">
-                            <p class="type-consult">Consulta remota</p>
-                        </div>
-                    </div>
-                    <div class="chat-circle">
-                        <img src="./images/icons/chat.png" alt="">
-                    </div>
-                </div>
-                <div class="card-bottom">
-                    <span class="hours">14:00 - 15:00 (1 hora)</span>
-                    <div class="buttons-container">
-                        <button class="call-video">Ligar por video</button>
-                        <button class="call-talk">Ligar por audio</button>
-                    </div>
-                </div>
-            </div>
-            <div class="clients-card">
-                <div class="card-top">
-                    <img src="./images/perfil-3.jpg" alt="cliente" class="photograph-client">
-                    <div>
-                        <h3 class="name-client">Larissa Santana</h3>
-                        <div class="type-control">
-                            <img src="./images/icons/pin.png" alt="icon camera">
-                            <p class="type-consult">Consulta no local</p>
-                        </div>
-                    </div>
-                    <div class="chat-circle">
-                        <img src="./images/icons/chat.png" alt="">
-                    </div>
-                </div>
-                <div class="card-bottom">
-                    <span class="hours">16:00 - 17:00 (1 hora)</span>
-                    <div class="buttons-container">
-                        <button class="show-address">Ver Endereço</button>
-                    </div>
-                </div>
-            </div>
-            <div class="clients-card">
-                <div class="card-top">
-                    <img src="./images/perfil-4.jpg" alt="cliente" class="photograph-client">
-                    <div>
-                        <h3 class="name-client">Marcos Correia</h3>
-                        <div class="type-control">
-                            <img src="./images/icons/pin.png" alt="icon camera">
-                            <p class="type-consult">Consulta no local</p>
-                        </div>
-                    </div>
-                    <div class="chat-circle">
-                        <img src="./images/icons/chat.png" alt="">
-                    </div>
-                </div>
-                <div class="card-bottom">
-                    <span class="hours">17:20 - 18:00 (40 minutos)</span>
-                    <div class="buttons-container">
-                        <button class="show-address">Ver Endereço</button>
-                    </div>
-                </div>
-            </div>
-            <div class="day-bar-container">
-                <span class="day-bar-text">Amanhã</span>
-            </div>
 
-            <div class="clients-card">
-                <div class="card-top">
-                    <img src="./images/perfil-5.jpg" alt="cliente" class="photograph-client">
-                    <div>
-                        <h3 class="name-client">Clara Lemos</h3>
-                        <div class="type-control">
-                            <img src="./images/icons/pin.png" alt="icon camera">
-                            <p class="type-consult">Consulta no local</p>
-                        </div>
-                    </div>
-                    <div class="chat-circle">
-                        <img src="./images/icons/chat.png" alt="">
-                    </div>
-                </div>
-                <div class="card-bottom">
-                    <span class="hours">18:00 - 19:00 (1 hora)</span>
-                    <div class="buttons-container">
-                        <button class="show-address">Ver Endereço</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class="bar-options">
-            <div class="item">
-                <img src="./images/icons/Calendarioicone.png" alt="calendario icone">
-                <p class="marked">Consultas</p>
-            </div>
-            <div class="item">
-                <img src="./images/icons/clientes icone.png" alt="cliente icone">
-                <p>Clientes</p>
-            </div>
-            <div class="item">
-                <img src="./images/icons/relatorios icone.png" alt="relatorio icone">
-                <p>Relatorios</p>
-            </div>
-            <div class="item">
-                <img src="./images/icons/menu icone.png" alt="menu icone">
-                <p>Menu</p>
-            </div>
+      <section class="home">
+        <img src="./assets/perfil-1.jpg" alt="" class="profile" />
+        <div class="home__info">
+          <strong>Olá, Sônia</strong>
+          <p>Mais 4 consultas hoje</p>
         </div>
-        <span class="button-fly" id="floatingButton" onclick="toggleOverlay()"><i class="bi bi-plus-lg"></i></span>
-        <div id="overlay" class="overlay" onclick="toggleOverlay()">
-            <div class="button-container">
-                <div class="button-controller">
-                    <p class="label-name">Nova consulta no local</p>
-                    <button class="action-button"><img src="./images/icons/Camerafab.png" alt="camera white"></button>
-                </div>
-                <div class="button-controller">
-                    <p class="label-name">Nova consulta por video</p>
-                    <button class="action-button"><img src="./images/icons/pinfabiconee.png" alt="pin white"></button>
-                </div>
-            </div>
+      </section>
+
+      <section class="consultas">
+        <div class="consultas__data">
+          <strong>Hoje</strong>
         </div>
+        <ul>
+          <li>
+            <div class="consulta__card">
+              <div class="consulta__card-titulo">
+                <div class="consulta__card-paciente">
+                  <img
+                    src="./assets/perfil-2.jpg"
+                    alt="Imagem de perfil do paciente"
+                  />
+                  <div>
+                    <strong>Luciana Dias</strong>
+                    <span>
+                      <span aria-hidden="true" class="camera"></span>
+                      Consulta remota
+                    </span>
+                  </div>
+                </div>
+                <button class="consulta__card-chat"></button>
+              </div>
+              <div class="consulta__card-conteudo">
+                <p>14:00 - 15:00 (1 hora)</p>
+                <div class="consulta__card-acoes">
+                  <button class="btn-secundario">Ligar por vídeo</button>
+                  <button class="btn-terciario">Ligar por áudio</button>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="consulta__card">
+              <div class="consulta__card-titulo">
+                <div class="consulta__card-paciente">
+                  <img
+                    src="./assets/perfil-3.jpg"
+                    alt="Imagem de perfil do paciente"
+                  />
+                  <div>
+                    <strong>Larissa Santana</strong>
+                    <span>
+                      <span aria-hidden="true" class="mapa"></span>
+                      Consulta no local
+                    </span>
+                  </div>
+                </div>
+                <button class="consulta__card-chat"></button>
+              </div>
+              <div class="consulta__card-conteudo">
+                <p>16:00 - 17:00 - (1 hora)</p>
+                <div class="consulta__card-acoes">
+                  <button class="btn-primario">Ver endereço</button>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="consulta__card">
+              <div class="consulta__card-titulo">
+                <div class="consulta__card-paciente">
+                  <img
+                    src="./assets/perfil-4.jpg"
+                    alt="Imagem de perfil do paciente"
+                  />
+                  <div>
+                    <strong>Marcoes Correia</strong>
+                    <span>
+                      <span aria-hidden="true" class="camera"></span>
+                      Consulta remota
+                    </span>
+                  </div>
+                </div>
+                <button class="consulta__card-chat"></button>
+              </div>
+              <div class="consulta__card-conteudo">
+                <p>17:20 - 18:00 (40 minutos)</p>
+                <div class="consulta__card-acoes">
+                  <button class="btn-secundario">Ligar por vídeo</button>
+                  <button class="btn-terciario">Ligar por áudio</button>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <div class="consultas__data">
+          <strong>Amanhã</strong>
+        </div>
+
+        <ul>
+          <li>
+            <div class="consulta__card">
+              <div class="consulta__card-titulo">
+                <div class="consulta__card-paciente">
+                  <img
+                    src="./assets/perfil-5.jpg"
+                    alt="Imagem de perfil do paciente"
+                  />
+                  <div>
+                    <strong>Clara Lemos</strong>
+                    <span>
+                      <span aria-hidden="true" class="camera"></span>
+                      Consulta remota
+                    </span>
+                  </div>
+                </div>
+                <button class="consulta__card-chat"></button>
+              </div>
+              <div class="consulta__card-conteudo">
+                <p>18:00 - 19:00 - (1 hora)</p>
+                <div class="consulta__card-acoes">
+                  <button class="btn-secundario">Ligar por vídeo</button>
+                  <button class="btn-terciario">Ligar por áudio</button>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="consulta__card">
+              <div class="consulta__card-titulo">
+                <div class="consulta__card-paciente">
+                  <img
+                    src="./assets/perfil-2.jpg"
+                    alt="Imagem de perfil do paciente"
+                  />
+                  <div>
+                    <strong>Luciana Dias</strong>
+                    <span>
+                      <span aria-hidden="true" class="camera"></span>
+                      Consulta remota
+                    </span>
+                  </div>
+                </div>
+                <button class="consulta__card-chat"></button>
+              </div>
+              <div class="consulta__card-conteudo">
+                <p>14:00 - 15:00 (1 hora)</p>
+                <div class="consulta__card-acoes">
+                  <button class="btn-secundario">Ligar por vídeo</button>
+                  <button class="btn-terciario">Ligar por áudio</button>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="consulta__card">
+              <div class="consulta__card-titulo">
+                <div class="consulta__card-paciente">
+                  <img
+                    src="./assets/perfil-4.jpg"
+                    alt="Imagem de perfil do paciente"
+                  />
+                  <div>
+                    <strong>Marcoes Correia</strong>
+                    <span>
+                      <span aria-hidden="true" class="camera"></span>
+                      Consulta remota
+                    </span>
+                  </div>
+                </div>
+                <button class="consulta__card-chat"></button>
+              </div>
+              <div class="consulta__card-conteudo">
+                <p>17:20 - 18:00 (40 minutos)</p>
+                <div class="consulta__card-acoes">
+                  <button class="btn-secundario">Ligar por vídeo</button>
+                  <button class="btn-terciario">Ligar por áudio</button>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="rodape">
+        <nav>
+          <ul>
+
+            <li class="rodape__acao">
+              <span class="consultas-icone"></span>
+              Consultas
+            </li>
+
+            <li class="rodape__acao">
+              <span class="clientes-icone"></span>
+              Clientes
+            </li>
+
+            <li class="rodape__acao">
+              <span class="relatorios-icone"></span>
+              Relatórios
+            </li>
+
+            <li class="rodape__acao">
+              <span class="menu-icone"></span>
+              Menu
+            </li>
+
+          </ul>
+        </nav>
+      </section>
+
+      <div class="botao__flutuante">
+
+        <button class="botao__flutuante-cadastro btn-primario">
+          <span></span>
+        </button>
+        <ul class="botao__flutuante-opcoes">
+
+          <li>
+            <span>
+              Nova consulta na casa do cliente
+            </span>
+            <button class="botao__flutuante-item btn-primario local"><span class="local"></span></button>
+          </li>
+          <li>
+            <span>
+              Nova consulta por vídeo
+            </span>
+            <button class="botao__flutuante-item btn-primario"><span class="remoto"></span></button>
+          </li>
+
+        </ul>
+        
+      </div>
+
     </main>
-    
-    <script src="./js/script.js"></script>
-</body>
+  </body>
 </html>
