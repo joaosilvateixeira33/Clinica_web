@@ -1,6 +1,6 @@
 .consultas{
   padding: 0 16px;
-  height: calc(100vh - 110px - 58px);
+  height: calc(111vh - 110px - 58px);
   overflow-y: scroll;
 }
 
