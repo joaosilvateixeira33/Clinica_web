@@ -13,81 +13,52 @@
     </b>
 </p>
 
-<p align="center">
+<p align="center" id="linkproject">
      <a href="https://joaosilvateixeira33.github.io/Clinica_web/">📱 Clinica Project </a>
 </p>
 
 <h2 id="layout">🎨 Layout</h2>
 
 <p align="center">
-    <img src="../.github/example.png" alt="Image Example" width="400px">
-    <img src="../.github/example.png" alt="Image Example" width="400px">
+    <img src="Tela-desktop.png" alt="Image Example" width="700px">
+    <img src="tela-mobile.png" alt="Image Example" width="200px">
 </p>
 
 <h2 id="technologies">💻 Technologies</h2>
 
-- list of all technologies you used
-- react
-- styled components
-- another example
+- Html5
+- Css3
+- Javascript
 
 <h2 id="started">🚀 Getting started</h2>
 
-Here you describe how to run your project locally
+Acesso link <a href="#linkproject">em seu navegador</a>
 
 <h3>Prerequisites</h3>
 
 Here you list all prerequisites necessary for running your project. For example:
 
-- [NodeJS](https://github.com/)
-- [Git 2](https://github.com)
+- [Chrome](https://chrome.com/)
 
 <h3>Cloning</h3>
 
 How to clone your project
 
 ```bash
-git clone your-project-url-in-github
-```
-
-<h3>Starting</h3>
-
-How to start your project
-
-```bash
-cd project-name
-npm some-command-to-run
+git clone https://github.com/joaosilvateixeira33/Clinica_web
 ```
 
 <h2 id="colab">🤝 Collaborators</h2>
 
-Special thank you for all people that contributed for this project.
-
 <table>
   <tr>
-    <td align="center">
-      <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/61896274?v=4" width="100px;" alt="Fernanda Kipper Profile Picture"/><br>
-        <sub>
-          <b>Fernanda Kipper</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://t.ctcdn.com.br/n7eZ74KAcU3iYwnQ89-ul9txVxc=/400x400/smart/filters:format(webp)/i490769.jpeg" width="100px;" alt="Elon Musk Picture"/><br>
-        <sub>
-          <b>Elon Musk</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
-        <sub>
-          <b>Steve Jobs</b>
-        </sub>
-      </a>
-    </td>
+      <td align="center">
+          <a href="#">
+              <img src="https://avatars.githubusercontent.com/u/87495429?v=4" width="100px;" alt="Joao silva profile picture"/><br>
+              <sub>
+                <b>João Marcos Silva</b>
+              </sub>
+          </a>
+      </td>
   </tr>
 </table>
