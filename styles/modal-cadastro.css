@@ -1,0 +1,49 @@
+dialog {
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 2% 30%;
+}
+
+h3{
+    text-align: center;
+}
+
+.form-cadastro{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+
+input, select, textarea{
+    padding: 10px;
+    border-radius: 15px;
+}
+
+input:focus{
+    border: 2px solid var(--cor-primaria);
+}
+
+.botao-salvar{
+    background-color: var(--cor-primaria);
+    padding: 10px;
+    border-radius: 15px;
+    color: #fff;
+    border: none;
+}
+
+.botao-fechar{
+    background-color: red;
+    padding: 10px;
+    border-radius: 15px;
+    color: #fff;
+    border: none;
+}

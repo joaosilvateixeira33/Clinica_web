@@ -39,6 +39,7 @@ section.rodape{
 }
 .rodape nav .rodape__acao span.consultas-icone{
   background-image: url('../assets/icons/Calendar.svg');
+  
 }
 .rodape nav .rodape__acao span.clientes-icone{
   opacity: 30%;

@@ -6,6 +6,7 @@
 @import url('./botoes.css');
 @import url('./rodape.css');
 @import url('./botao-flutuante.css');
+@import url('./modal-cadastro.css');
 
 body{
   background: var(--fundo);
@@ -41,11 +42,19 @@ main{
   .consultas ul {
     max-width: 768px;
   }
+
+  .botao__flutuante{
+    display: none;
+  }
 }
 
 @media (min-width: 1024px) {
   main{
     margin-left: 15%;
+  }
+
+  .botao__flutuante{
+    display: block;
   }
 
   .consultas ul {
@@ -94,5 +103,9 @@ main{
     flex-direction: row;
     gap: 10px;
     font-size: 15px;
+  }
+
+  .botao__flutuante{
+    display: none;
   }
 }

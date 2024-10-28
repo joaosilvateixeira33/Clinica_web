@@ -284,8 +284,8 @@
         <nav>
           <ul>
 
-            <li class="rodape__acao">
-              <span class="consultas-icone"></span>
+            <li class="rodape__acao botao-abrir" id="abrir-dialogo">
+              <span class="consultas-icone" ></span>
               Consultas
             </li>
 
@@ -332,6 +332,48 @@
         
       </div>
 
+      <dialog id="dialogo-consulta">
+          <div class="conteudo-dialogo">
+              <h3>Cadastrar Nova Consulta</h3>
+              <form id="cadastro-consulta" class="form-cadastro">
+                  <div class="form-control">
+                    <label for="nome-paciente">Nome do Paciente:</label>
+                    <input type="text" id="nome-paciente" name="nome-paciente" required>
+                  </div>
+
+                  <div class="form-control">
+                    <label for="tipo-consulta">Tipo de Consulta:</label>
+                    <select id="tipo-consulta" name="tipo-consulta" required>
+                        <option value="">Selecione...</option>
+                        <option value="clinica-geral">Clínica Geral</option>
+                        <option value="odontologia">Odontologia</option>
+                        <option value="oftalmologia">Oftalmologia</option>
+                    </select>
+                  </div>
+
+                 <div class="form-control">
+                  <label for="data-consulta">Data da Consulta:</label>
+                  <input type="date" id="data-consulta" name="data-consulta" required>
+                 </div>
+
+                 <div class="form-control">
+                  <label for="hora-consulta">Horário da Consulta:</label>
+                  <input type="time" id="hora-consulta" name="hora-consulta" required>
+                 </div>
+
+                  <div class="form-control">
+                    <label for="observacoes">Observações:</label>
+                    <textarea id="observacoes" name="observacoes"></textarea>
+                  </div>
+
+                  <div class="acoes-dialogo">
+                    <button type="submit" class="botao-salvar">Salvar Consulta</button>
+                    <button type="button" id="fechar-dialogo" class="botao-fechar">Cancelar</button>
+                  </div>
+              </form>
+          </div>
+      </dialog>
     </main>
+    <script src="./js/script.js"></script>
   </body>
 </html>
